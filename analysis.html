@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expense Analysis</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>📊 Expense Analysis</h1>
+
+        <h2>💸 Expense Breakdown</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Category</th>
+                    <th>Amount (₹)</th>
+                </tr>
+            </thead>
+            <tbody id="expense-table-body"></tbody>
+        </table>
+
+        <h3>📊 Expense Chart:</h3>
+        <div class="chart-container">
+            <canvas id="expenseChart"></canvas> <!-- Pie Chart -->
+        </div>
+
+        <button onclick="goBack()">Go Back</button>
+        <button onclick="resetBudget()">Reset</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

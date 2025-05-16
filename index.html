@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Budget Planner</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" href="images/favicon.png" type="image/png">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
+
+</head>
+
+<body>
+    <div class="container">
+        <h1>💰 Budget Planner</h1>
+
+        <div class="input-section">
+            <label>Income (₹):
+                <input type="number" id="income" placeholder="Enter your monthly income">
+            </label>
+
+            <label>Expense (₹):
+                <input type="number" id="expense" placeholder="Enter amount">
+            </label>
+
+            <label>Category:
+                <select id="category">
+                    <option value="Groceries">Groceries</option>
+                    <option value="Rent">Rent</option>
+                    <option value="Utilities">Utilities</option>
+                    <option value="Entertainment">Entertainment</option>
+                    <option value="Other">Other</option>
+                </select>
+            </label>
+
+            <button onclick="addExpense()">Add Expense</button>
+        </div>
+
+        <h2>💸 Expense Summary</h2>
+        <ul id="expense-list"></ul>
+
+        <!-- Display total expense and savings -->
+        <p id="total-expense">Total Expense: ₹0</p>
+        <p id="total-savings">Savings: ₹0</p>
+
+        <h3>📊 AI Budget Analysis:</h3>
+        <p id="budget-analysis">Waiting for input...</p>
+
+        <button onclick="exportToExcel()">📤 Export to Excel</button>
+        <button onclick="goToAnalysis()">View Analysis</button> <!-- New Button -->
+
+        <!-- <button onclick="resetBudget()">Reset</button>
+    </div> -->
+
+        <p id="warning-message"></p>
+
+        <script src="script.js"></script>
+</body>
+
+</html>

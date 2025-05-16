@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    background-image: url(images/bg1.jpg);
+}
+
+.container {
+    background: white;
+    padding: 20px;
+    border-radius: 20px;
+    text-align: center;
+    width: 400px;
+    box-shadow: 10px 10px 8px rgba(255, 255, 255, 0.1);
+}
+
+input, select, button {
+    width: 90%;
+    padding: 8px;
+    margin: 8px 0;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+button {
+    background: #28a745;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #218838;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #000;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+/* Adjust Pie Chart Size */
+.chart-container {
+    width: 250px;
+    height: 250px;
+    margin: auto;
+}
+
+canvas {
+    width: 100% !important;
+    height: 100% !important;
+}
