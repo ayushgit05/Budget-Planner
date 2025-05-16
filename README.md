@@ -1,23 +1,22 @@
 # 💸 Budget Planner
 
-**Budget Planner** is a simple, responsive web app that helps users track income and expenses with real-time budget analysis and visual charts. Built with vanilla JavaScript, it uses `localStorage` to persist data and allows exporting your budget as an Excel report.
-
+**Budget Planner** is a lightweight and responsive web application that enables users to monitor their income and expenses in real time. Featuring visual charts and budget analysis, it's built with vanilla JavaScript, leverages localStorage for data persistence, and supports exporting budget reports to Excel.
 ---
 
 ## 🚀 Features
 
-- ✅ Add income and categorized expenses
 - 📈 View budget analysis with savings tips
-- 🧠 Get automatic spending warnings
+- ✅ Add income and categorized expenses
 - 📊 Interactive pie chart of expenses
-- 💾 Data saved locally (no backend needed)
+- 🧠 Get automatic spending warnings
 - 📤 Export data to Excel (.xlsx)
+- 💾 Data saved locally (no backend needed)
 
 ---
 
 ## 🖥️ Demo
 
-[Click here to view the live site](https://shrijan18.github.io/Budget-Planner/)
+[Click here to view the live site](https://ayushgit05.github.io/Budget-Planner/)
 
 ---
 
